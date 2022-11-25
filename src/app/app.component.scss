@@ -1,3 +1,5 @@
+
+/* para ponerle stylos al componente contenedor */
 :host {
   display: flex;
   flex-direction: column;
@@ -6,12 +8,13 @@
 
 .content {
   margin: 0;
-  background-color: white;
+  background-color: #1D90CE;
   flex: 1;
   position: relative;
 
   .cody-img{
-    position: absolute;
+    /* para que no se mueva cuando haga scroll */
+    position: fixed;
     bottom: 1em;
     right: 1em;
   }
